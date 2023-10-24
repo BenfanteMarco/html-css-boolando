@@ -52,6 +52,7 @@ header{
 
 main{
     padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .col-33{
@@ -129,4 +130,43 @@ main{
 .discount-price{
     color: rgb(162, 162, 162);
     text-decoration: line-through;
+}
+
+/* FOOTER */
+
+.col-50{
+    width: 50%;
+}
+
+.col-30{
+    width: 30%;
+}
+
+.col-50 ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    color: white;
+}
+
+footer{
+    background-color: black;
+    padding: 30px 0;
+    height: 100px;
+}
+
+.col-50 h3,h4{
+    color: white;
+}
+
+.justify-content{
+    justify-content: space-between;
+}
+
+.right{
+    text-align: right;
+}
+
+h3,h4{
+    line-height: 30px;
 }
