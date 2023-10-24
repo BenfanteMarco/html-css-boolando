@@ -15,13 +15,14 @@
 
 .col-15{
     width: 15%;
+    padding-top: 10px;
 }
 
 .container{
     max-width: 1200px;
 }
 .margin-container{
-    margin: 0 auto;
+    margin: 0 130px;
 }
 
 .col-70{
@@ -157,10 +158,6 @@ footer{
 
 .col-50 h3,h4{
     color: white;
-}
-
-.justify-content{
-    justify-content: space-between;
 }
 
 .right{
