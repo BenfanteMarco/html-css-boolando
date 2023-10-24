@@ -4,12 +4,28 @@
     box-sizing: border-box;
 }
 
+/* HEADER */
+
+.col-15 ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    color: white;
+}
+
+.col-15{
+    width: 15%;
+}
+
 .container{
     max-width: 1200px;
 }
-
 .margin-container{
     margin: 0 auto;
+}
+
+.col-70{
+    width: 70%;
 }
 
 .row{
@@ -17,59 +33,64 @@
     display: flex;
 }
 
-.col-30{
-    width: 33%;
-    border: 1px solid black;
-}
-
 header{
     background-color: rgba(255,105,0,255);
-    height: 75px;
+    height: 60px;
     padding: 10px 0;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
 }
 
-.height-50{
-    height: 50px;
+.logo-center{
+    text-align: center;
 }
 
-.d-flex{
-    display: flex;
+.container-sm{
+    max-width: 1200px;
 }
 
-.gap{
-    gap: 10px;
+main{
+    padding-top: 100px;
 }
 
-ul{
-    list-style: none;
+.col-33{
+    width: calc(100%/3 - 20px);
 }
 
-.font{
-    font-size: 15px;
+.col-70 img{
+    width: 20%;
 }
 
-.logo{
-    width: 100px;
+.col-33 img{
+    width: 100%;
 }
 
-.content-social i{
-    padding: 0 2px;
+.f-wrap{
+    flex-wrap: wrap;
+    gap: 10px 10px;
 }
 
-.position-relative{
+.img{
     position: relative;
-    top: 25%;
-    left: 35%;
 }
 
-.position-relative-left{
-    position: relative;
-    top: 25%;
-    left: 15px;
+.discount{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    background-color: white;
+    padding: 15px;
 }
 
-.position-relative-right{
-    position: relative;
-    top: 25%;
-    left: 80%;
+.off{
+    display: none;
+}
+
+.img:hover .on{
+    display: none;
+}
+
+.img:hover .off{
+    display: block;
 }
