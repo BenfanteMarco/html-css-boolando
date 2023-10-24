@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1200px;
+}
+
+.margin-container{
+    margin: 0 auto;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+}
+
+.col-30{
+    width: 33%;
+    border: 1px solid black;
+}
+
+header{
+    background-color: rgba(255,105,0,255);
+    height: 75px;
+    padding: 10px 0;
+}
+
+.height-50{
+    height: 50px;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.gap{
+    gap: 10px;
+}
+
+ul{
+    list-style: none;
+}
+
+.font{
+    font-size: 15px;
+}
+
+.logo{
+    width: 100px;
+}
+
+.content-social i{
+    padding: 0 2px;
+}
+
+.position-relative{
+    position: relative;
+    top: 25%;
+    left: 35%;
+}
+
+.position-relative-left{
+    position: relative;
+    top: 25%;
+    left: 15px;
+}
+
+.position-relative-right{
+    position: relative;
+    top: 25%;
+    left: 80%;
+}
