@@ -75,12 +75,21 @@ main{
     position: relative;
 }
 
-.discount{
+.cuore{
     position: absolute;
     top: 10px;
     right: 0;
     background-color: white;
-    padding: 15px;
+    padding: 10px 15px;
+}
+
+.discount{
+    position: absolute;
+    bottom: 90px;
+    left: 0;
+    background-color: red;
+    padding: 5px 10px;
+    color: white;
 }
 
 .off{
@@ -93,4 +102,31 @@ main{
 
 .img:hover .off{
     display: block;
+}
+
+.label{
+    position: absolute;
+    bottom: 90px;
+    left: 60px;
+    background-color: green;
+    padding: 5px 10px;
+    color: white;
+}
+
+.brand{
+    font-size: 15px;
+    color: rgb(162, 162, 162);
+}
+
+.description{
+    font-weight: bolder;
+}
+
+.price{
+    color: rgb(255, 36, 36);
+}
+
+.discount-price{
+    color: rgb(162, 162, 162);
+    text-decoration: line-through;
 }
